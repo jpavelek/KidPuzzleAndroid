@@ -1,1 +1,1 @@
-/home/jakub/Projects/Android/KidPuzzle/android/bin/classes.dex : \
+/home/jakub/Projects/Android/KidPuzzleAndroid/android/bin/classes.dex : \

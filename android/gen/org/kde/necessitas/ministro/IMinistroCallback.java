@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/jakub/Projects/Android/KidPuzzle/android/src/org/kde/necessitas/ministro/IMinistroCallback.aidl
+ * Original file: /home/jakub/Projects/Android/KidPuzzleAndroid/android/src/org/kde/necessitas/ministro/IMinistroCallback.aidl
  */
 package org.kde.necessitas.ministro;
 public interface IMinistroCallback extends android.os.IInterface
