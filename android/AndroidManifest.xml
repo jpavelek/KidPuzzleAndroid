@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<manifest android:versionCode="1" package="org.kde.necessitas.example.KidPuzzle" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0">
+<manifest android:versionCode="1" package="org.kde.necessitas.example.KidPuzzleAndroid" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0">
     <application android:name="org.kde.necessitas.origo.QtApplication" android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:name="org.kde.necessitas.origo.QtActivity" android:configChanges="orientation|locale|fontScale|keyboard|keyboardHidden" android:label="@string/app_name" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -8,14 +8,13 @@
             </intent-filter>
             <meta-data android:name="android.app.qt_libs_resource_id" android:resource="@array/qt_libs"/>
             <meta-data android:name="android.app.bundled_libs_resource_id" android:resource="@array/bundled_libs"/>
-            <meta-data android:name="android.app.lib_name" android:value="KidPuzzle"/>
+            <meta-data android:name="android.app.lib_name" android:value="KidPuzzleAndroid"/>
             <!--  Messages maps -->
             <meta-data android:name="android.app.ministro_not_found_msg" android:value="@string/ministro_not_found_msg"/>
             <meta-data android:name="android.app.ministro_needed_msg" android:value="@string/ministro_needed_msg"/>
             <meta-data android:name="android.app.fatal_error_msg" android:value="@string/fatal_error_msg"/>
             <!--  Messages maps -->
             <!-- Splash screen -->
-            <!-- meta-data android:name="android.app.splash_screen" android:resource="@layout/splash"/ -->
             <!-- Splash screen -->
         </activity>
     </application>

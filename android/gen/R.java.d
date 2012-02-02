@@ -1,4 +1,4 @@
-/home/jakub/Projects/Android/KidPuzzleAndroid/android/gen/org/kde/necessitas/example/KidPuzzle/R.java \
+/home/jakub/Projects/Android/KidPuzzleAndroid/android/gen/org/kde/necessitas/example/KidPuzzleAndroid/R.java \
  : /home/jakub/Projects/Android/KidPuzzleAndroid/android/res/drawable-hdpi/icon.png \
 /home/jakub/Projects/Android/KidPuzzleAndroid/android/res/drawable/icon.png \
 /home/jakub/Projects/Android/KidPuzzleAndroid/android/res/drawable/logo.png \
