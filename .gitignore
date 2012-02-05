@@ -1,0 +1,10 @@
+android/bin/build.prop
+KidPuzzleAndroid.pro.user
+android/bin/Puzzle-debug-unaligned.apk
+android/bin/Puzzle-debug-unaligned.apk.d
+android/bin/Puzzle-debug.apk
+android/bin/Puzzle.ap_
+android/bin/Puzzle.ap_.d
+android/bin/classes/org/kde/necessitas/example/
+android/libs/armeabi/libKidPuzzleAndroid.so
+android/opt/
