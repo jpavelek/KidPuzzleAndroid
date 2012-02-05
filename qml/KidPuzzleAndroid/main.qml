@@ -3,14 +3,15 @@ import "UI.js" as UI
 //import QtMultimediaKit 1.1
 
 Rectangle {
-    width: UI.screenWidth
-    height: UI.screenHeight
+    id: mainRect
     color: "black"
+    property int leftMargin: topView.width - UI.boardWidth
 
     Loader {
         id: tileLoader
         source: "MainSelection.qml"
     }
+
 /*
     SoundEffect {
         id: baloonPop

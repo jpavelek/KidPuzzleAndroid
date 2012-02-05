@@ -12,7 +12,7 @@ Rectangle {
         id: leftSpacer
         color: "black"
         anchors { left:parent.left; top: parent.top}
-        width: UI.leftMargin
+        width: leftMargin
         height: UI.screenHeight
     }
 
@@ -59,5 +59,7 @@ Rectangle {
         }
     }
 
-    Component.onCompleted: PropertyAnimation { target: page; property: "opacity"; to: 1; duration: 300; easing.type: Easing.InOutQuad }
+    PropertyAnimation { id: fadeIn; target: page; property: "opacity"; to: 1; duration: 300; easing.type: Easing.InOutQuad }
+
+    Component.onCompleted: { fadeIn.running = true; }
 }

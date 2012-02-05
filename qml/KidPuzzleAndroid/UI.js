@@ -22,10 +22,10 @@ function finished() {
     }
 }
 
+
 //Common
 var screenWidth = 854;
 var screenHeight = 480;
-var leftMargin = 54; //how  big margin for 800x480 game? On 854 screen it is 54
 
 //main grid
 var gridCellWidth = 350;
