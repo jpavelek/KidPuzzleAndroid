@@ -7,7 +7,6 @@ Image {
     height: UI.screenHeight
     source: (Math.random() > 0.5) ? "bg2.png" : "bg1.png"
     opacity: 0.0
-    smooth: true
 
     Component {
         id: tilesGridDelegate
