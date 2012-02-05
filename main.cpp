@@ -8,7 +8,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QmlApplicationViewer viewer;
     viewer.setOrientation(QmlApplicationViewer::ScreenOrientationLockLandscape);
     viewer.setSource(QUrl("qrc:/main.qml"));
-    viewer.showExpanded();
     viewer.showFullScreen();
 
     return app->exec();
