@@ -8,3 +8,4 @@ android/bin/Puzzle.ap_.d
 android/bin/classes/org/kde/necessitas/example/
 android/libs/armeabi/libKidPuzzleAndroid.so
 android/opt/
+android/bin/build.prop

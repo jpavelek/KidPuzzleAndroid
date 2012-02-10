@@ -12,7 +12,8 @@ QML_IMPORT_PATH =
 #MOBILITY += multimedia
 
 # The .cpp file which was generated for your project. Feel free to hack it.
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    datamover.cpp
 
 RESOURCES += qml/KidPuzzleAndroid/res.qrc
 
@@ -117,6 +118,11 @@ OTHER_FILES += \
     android/res/values/strings.xml \
     android/res/values-ru/strings.xml \
     android/AndroidManifest.xml
+
+HEADERS += \
+    datamover.h
+
+
 
 
 

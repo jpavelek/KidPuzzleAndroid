@@ -42,3 +42,4 @@ var seedTime = 10000;
 var baloonColors = ["baloon_red.png", "baloon_green.png", "baloon_yellow.png", "baloon_blue.png"];
 var nrColors = 4;
 var boardWidth = 800;
+var boardHeight = 480;

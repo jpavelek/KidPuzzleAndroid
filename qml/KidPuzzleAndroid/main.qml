@@ -5,7 +5,11 @@ import "UI.js" as UI
 Rectangle {
     id: mainRect
     color: "black"
-    property int leftMargin: topView.width - UI.boardWidth
+    property int leftMargin:  Math.floor((datamover.screenWidth() - UI.boardWidth)/2)
+    property int rightMargin: datamover.screenWidth() - UI.boardWidth - leftMargin
+    property int topMargin:   Math.floor((datamover.screenHeight() - UI.boardHeight)/2)
+    property int bottomMargin: datamover.screenHeight() - UI.boardHeight - topMargin
+
 
     Loader {
         id: tileLoader

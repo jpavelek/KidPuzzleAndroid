@@ -3,8 +3,8 @@ import "UI.js" as UI
 
 Image {
     id: mainPage
-    width: UI.screenWidth
-    height: UI.screenHeight
+    width: datamover.screenWidth()
+    height: datamover.screenHeight()
     source: (Math.random() > 0.5) ? "bg2.png" : "bg1.png"
     opacity: 0.0
 
@@ -105,7 +105,7 @@ Image {
         cellHeight: UI.gridCellHeight
         flow: GridView.TopToBottom
         delegate: tilesGridDelegate
-        anchors { fill: parent; topMargin: 40; bottomMargin: 20; leftMargin: 20; rightMargin: 20 }
+        anchors { fill: parent; topMargin: 20; bottomMargin: 20; leftMargin: 20; rightMargin: 20 }
     }
 
     Behavior on opacity {  PropertyAnimation { target: mainPage; property: "opacity"; duration: 300; easing.type: Easing.InOutQuad  } }
